@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+
+    .products {
+        display: inherit;
+        height: auto;
+        max-height: none;
+    }
+    .product {
+        margin-top: auto;
+        margin: 30px 0;
+    }
+    .main_section {
+        padding: 4%;
+    }
+    .characteristics {
+        display: inherit;
+        padding: 30px;
+    }
+    .references {
+        display: inherit;
+    }
+    .reference {
+        margin: 20px 0 0 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Products section */
+
+@media (max-width: 700px) {
+
+    .container .cont_prod h1 {
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        padding: 15px 15px;
+    }
+    .col_description p {
+        width: auto;
+    }
+}
